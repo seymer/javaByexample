@@ -1,6 +1,6 @@
 public class GenericMethodTest {
     // generic method printArray
-    public static < E > void printArray(E[] inputArray) {
+    public static <E> void printArray(E[] inputArray) {
         // Display array elements
         for (E element : inputArray) {
             System.out.printf("%s", element);
@@ -15,6 +15,11 @@ public class GenericMethodTest {
         Character[] charArray = {'H', 'E', 'L', 'L', 'O'};
 
         System.out.println("Array integerArray contains:");
+        System.out.println(false);
+        System.out.println("charArray = " + charArray);
+
+        System.out.println("charArray = " + charArray);
+
         printArray(intArray);
 
         System.out.println("\nArray doubleArray contains:");

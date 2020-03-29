@@ -35,6 +35,9 @@ public class Test {
         // Return long primitive data type
         System.out.println(x.longValue());
 
+        System.out.println(System.getenv());
 
+        System.out.println("x = " + x);
+        System.out.println(System.getProperties());
     }
 }
